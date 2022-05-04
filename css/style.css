@@ -1,0 +1,13 @@
+* {
+    color: purple;
+    background: gray;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+a {
+    font-size: 25px;
+}
