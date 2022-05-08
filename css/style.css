@@ -2,6 +2,7 @@
     color: purple;
     background: gray;
     font-family: sans-serif, "Times New Roman";
+    font-size: 18px;
 }
 
 img {
@@ -10,8 +11,14 @@ img {
     border: solid 2px rebeccapurple;
 }
 
+.home {
+    color:orchid
+}
+
 a {
-    font-size: 25px;
+    font-size: 35px;
+    padding: 18px;
+    color: orchid;
 }
 
 .center {
@@ -20,4 +27,13 @@ a {
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+body {
+    display: grid;
+    grid-gap: 1em;
 }
