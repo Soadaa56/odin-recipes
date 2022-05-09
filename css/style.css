@@ -3,6 +3,7 @@
     background: lightgray;
     font-family: "Times New Roman", sans-serif;
     font-size: 19px;
+    /* border: 2px solid red ; */
 }
 
 img {
@@ -42,4 +43,19 @@ h2 {
 body {
     display: grid;
     grid-gap: 1em;
+}
+
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.recipe-list li {
+    flex-grow: 1;
+    flex-shrink: 1;
+    list-style: none;
 }
