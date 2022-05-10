@@ -69,9 +69,12 @@ body {
 
 .nav-list-img li {
     list-style: none;
-    flex:1;
-    flex-basis: auto;
+    flex: 1;
     justify-content: flex-start;
+}
+
+.nav-list-img .two {
+    flex: 4;
 }
 
 .nav-list {
